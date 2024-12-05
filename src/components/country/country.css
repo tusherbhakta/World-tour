@@ -1,0 +1,15 @@
+.country{
+    border: 2px solid skyblue;
+    
+    padding: 15px;
+    border-radius: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.visited{
+    background-color: bisque;
+    color: black;
+}
